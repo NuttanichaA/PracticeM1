@@ -22,16 +22,16 @@ const products = [
 console.log(calculateSales(products));
 try {
   console.log(calculateSales(null));
-} catch (Error) {
-  console.log(Error);
+} catch (error) {
+  console.log(error.message);
 }
 try {
   console.log(calculateSales(undefined));
-} catch (Error) {
-  console.log(Error);
+} catch (error) {
+  console.log(error.message);
 }
 try {
   console.log(calculateSales([]));
-} catch (Error) {
-  console.log(Error);
+} catch (error) {
+  console.log(error.message);
 }
