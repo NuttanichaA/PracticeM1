@@ -6,6 +6,7 @@ Write a function called calculateSales that takes an array of product objects as
     quantity (number): The number of units sold.
 The function should return the total sales (price * quantity) for all products.
 ## Example: 
+``` JS
 const products = [
   { name: 'Laptop', price: 1000, quantity: 5 },
   { name: 'Phone', price: 500, quantity: 10 },
@@ -13,4 +14,6 @@ const products = [
 ];
 
 calculateSales(products);
+```
+
 - Expected output: 12400
