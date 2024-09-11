@@ -1,7 +1,7 @@
 function countOccurrences(words){
     const occuredWords = {}
     for (item of words) {
-        //this is implicit type conversion if item is not assign to ocw property yet, 
+        //this is implicit type conversion. If item is not assign to ocw property yet, 
         //it will be undefined which return false
         if(occuredWords[item]) occuredWords[item]++
         else occuredWords[item] = 1
