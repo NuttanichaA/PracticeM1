@@ -27,7 +27,7 @@ function findLongestNameVer2(people) {
 }
 
 const people = [
-  { name: "Alice" },
+  { name: "Alice" }, 
   { name: "Bob" },
   { name: "Christopher" },
   { name: "Aleczandria" },
