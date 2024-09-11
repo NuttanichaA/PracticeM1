@@ -1,13 +1,13 @@
 function findLongestName(people) {
   let maxNamelength = 0;
-  let longestNameIndex = 0;
+  let longestName = '';
   for (const man of people) {
     if (man.name.length > maxNamelength) {
       maxNamelength = man.name.length
-      longestNameIndex = people.indexOf(man)
+      longestName = man.name
     }
   }
-  return people[longestNameIndex].name
+  return longestName
 }
 
 const people = [
